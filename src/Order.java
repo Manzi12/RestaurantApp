@@ -20,9 +20,15 @@ public class Order {
         return total;
     }
 
+
+
     public void dsiplayOrderList(){
         for (MenuItem item : items){
             System.out.println(item);
         }
+    }
+
+    public List<MenuItem> getItems() {
+        return items;
     }
 }
