@@ -16,8 +16,8 @@ public class Customer {
     }
 
     public String toString(){
-        return "Customer " +
-                "Name " + name +
+        return
+                "Name : " + name + " , " +
                 "Contact Number : " + contactNumber;
     }
 }
